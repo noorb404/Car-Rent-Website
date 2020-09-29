@@ -1,0 +1,231 @@
+/*Start slider*/
+.slider{
+    background-color: #DDD;
+  }
+  
+  .slider .carousel-inner{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  @media(max-width: 768px){
+    .slider .carousel-inner{      
+        justify-content: left;
+    }
+  }
+  
+  .slider .carousel-inner h1{
+    position: absolute;
+    color: #fff;
+    z-index: 3;
+    font-size: 70px;
+    max-width: 800px;
+    text-align: right;
+    right: 100px;
+    line-height: 1.5;
+  }
+
+  @media screen and (max-width: 992px){
+    .slider .carousel-inner h1{       
+        font-size: 60px;
+        max-width: 700px;     
+        right: right ;
+        text-align: right;
+
+    }
+  }
+
+  @media(max-width: 780px){
+    .slider .carousel-inner h1{       
+        font-size: 40px;
+        max-width: 90%;     
+        right: auto;      
+        text-align: center;
+    }
+}
+@media(max-width: 505px){
+    .slider .carousel-inner h1{       
+        font-size: 25px;
+        max-width: 90%;     
+        right: auto;      
+        text-align: center;
+        line-height: 2;
+    }
+}
+@media(max-width: 330px){
+    .slider .carousel-inner h1{       
+        font-size: 20px;
+        max-width: 90%;     
+        right: auto;      
+        text-align: center;
+        line-height: 2;
+    }
+}
+  
+  .slider .carousel-inner h1 span{
+    border: 4px solid #ec1c23;
+    display: inline-block;
+    padding: 2px 10px;
+  }
+  
+  .slider .carousel-inner .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: 2;
+  }
+  
+  .slider .carousel-item{
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  
+  .slider .carousel-one{
+    background-image: url('/public/images/1.png');
+  }
+  .slider .carousel-two{
+    background-image: url('/public/images/2.png');
+  }
+  .slider .carousel-three{
+    background-image: url('/public/images/3.png');
+  }
+  
+  .slider .carousel-indicators li{
+    height: 8px;
+    cursor: pointer;
+  }
+  /*End slider*/
+
+  /*Start Features*/
+  .features{
+      padding: 50px 0;
+  }
+
+  .features i{
+      background-color: #ec1c23;
+      color: #fff;      
+      padding: 12px;
+      margin-bottom: 10px;
+  }
+
+
+  .features h3{
+    font-size: 22px;
+  }
+
+  .features p{
+      color: #989898;
+      margin-bottom: 40px;
+  }
+
+  /*End Features*/
+
+  /*Start Choose Us*/
+
+  .choose-us{   
+    background-color: #FFF;    
+  }
+
+  
+  .choose-us img{
+      max-width: 100%;
+     
+  }
+
+  .choose-us .col-md-6{
+      padding: 0; 
+         
+  }
+  .choose-us .col-md-6:last-child{
+      background-color: #08526d;
+      color: #FFF;
+      padding-top: 40px;
+  }
+
+
+  
+
+  .choose-us h2{
+      font-size: 50px;
+      font-weight: bold;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin: 30px;
+  }
+  @media(max-width: 768px){
+    .choose-us h2{
+        margin: 10px;
+    }
+}
+
+  .choose-us p{
+    line-height: 2;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    margin: 0 auto 15px;
+    color: #FFF;
+    margin-bottom: 30px;
+  }
+
+  .choose-us .button{
+    background-color: #ec1c23;
+    color: #FFF;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid #ec1c23;
+    
+
+  }
+
+  @media screen and (max-width: 992px){
+
+    .choose-us .button{
+        padding: 4px;
+        margin-bottom: auto;
+    }
+
+    .choose-us p{
+        line-height: 1.5;
+    }
+  }
+
+  
+  /*End Choose Us*/
+
+  /*Start Contact Us*/
+
+  .contact-us{
+      padding: 45px 0;
+      background-color: #ec1c23;
+      color: #FFF;
+      border: 5px solid #FFF;
+      
+
+  }
+
+  .contact-us p{
+    margin: 0;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .contact-us a{
+    color: #FFF;
+    border: 2px solid #FFF;
+    padding: 6px 15px 8px;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  /*End Contact Us*/
+

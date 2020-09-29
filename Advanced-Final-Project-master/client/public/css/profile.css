@@ -1,0 +1,44 @@
+.order_type{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.car_owner{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.order_status{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: gray;
+
+}
+.req_to{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+.resp_btn_reject{/*red button*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 140px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.resp_btn_accept{/*red button*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: green;
+    margin-top: 20px;
+    margin-left: 60px;
+    border-radius: 10px 10px 10px 10px;
+}
